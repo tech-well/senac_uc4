@@ -17,8 +17,18 @@ body{
     width: 550px;
     height: 500px;
     border: solid 1px wheat;
-    transition: transform 2.8s ease, background 2.8s ease;
+    border: solid ;
+    background-image: url(/imagens/borboleta);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
+    
+}
+
+.slide img {
+    width: 550px;
+    height: 500px;
 }
 
 .slide__items{
@@ -30,8 +40,7 @@ body{
     align-items: center;
     gap: 10px;
     perspective: 1000px;
-    transition: transform 2.8s ease, background 2.8s ease;
-
+   
 }
 
 .slide__items__mudar{
