@@ -9,9 +9,32 @@ body{
     height: 100vh;
     background-color: rgb(189, 211, 209);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    margin: auto;
+    width: 800px;
+    display: flex;
+    gap: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a{
+  text-decoration: none;
+  color: rgb(24, 20, 20);
+  font-size: 20px;
+}
+
+a:hover{
+    background-color: azure;
+    transition: 0.5s;
 }
 
 .container{
+    
     width: 500px;
     height: 600px;
     margin: auto;

@@ -27,6 +27,7 @@ function sobe__0() {
     document.querySelector('.container__filho__0').style.height = '20px';
     document.querySelector('.skills__0').style.height = '20px'
    
+   
 
 }
 

@@ -3,6 +3,25 @@
     padding: 0;
 }
 
+nav{
+    margin-bottom: 90px;
+    width: 800px;
+    display: flex;
+    gap: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(24, 20, 20);
+  font-size: 20px;
+}
+
+a:hover{
+    background-color: azure;
+    transition: 0.5s;
+}
+
 body{
     background-color: rgb(71, 91, 73);
     display: flex;
